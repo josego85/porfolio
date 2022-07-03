@@ -1,0 +1,31 @@
+// Portfolio Modal 2
+#portfolioModal2.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal2', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 API GEO Paraguay
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/api.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | An API on Geolocation of Paraguay. NodeJS, Express, Redis and MySQL is used
+                                br
+                                a.btn.btn-social.mx-1(href='https://github.com/josego85/api-geo-paraguay', target="_blank")
+                                    i.fab.fa-2xl.fa-github
+                                br
+                                a(href='https://api-geo.proyectosbeta.net/api/v1/paraguay/-59.517228974/-23.8302210107/', target="_blank") Demo
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

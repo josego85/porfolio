@@ -1,0 +1,31 @@
+// Portfolio Modal 3
+#portfolioModal3.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal3', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 API Heroes Of Might and Magic III (HOTA)
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/api.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | API for the Game Heroes Of Might and Magic III (HOTA).
+                                br
+                                a.btn.btn-social.mx-1(href='https://github.com/proyectosbeta/api-heroes-3-HOTA', target="_blank")
+                                    i.fab.fa-2xl.fa-github
+                                br
+                                a(href='http://51.15.192.116:4500/creature/castle', target="_blank") Demo
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window
