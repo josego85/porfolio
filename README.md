@@ -14,8 +14,16 @@
 npm i
 ```
 
-## Compile
+## Compile and run
 
 ```bash
-pug src/pug/index.pug
+npm start
+```
+
+# Production
+
+## Web access
+
+```
+https://myporfolio.proyectosbeta.net/
 ```
